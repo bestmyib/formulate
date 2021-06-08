@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/andrewyoung/Movies/programming/programming/formulate'
+gcc -c -std=c99 -g src/main.c -o src/main.o
+gcc -g src/main.o -o formulate
+make: Leaving directory `/Users/andrewyoung/Movies/programming/programming/formulate'
+ 
